@@ -1,0 +1,51 @@
+1.jpg
+    using tensorflow:
+        [0.77442896]
+        [-0.38499743]
+
+    using nnc infer on PC:
+        0.7744302
+        -0.38499206
+
+
+2.jpg
+    using tensorflow:
+        [4.3173306e-05]
+        [0.14753999]
+
+    using nnc infer on PC:
+        4.3171978e-05
+        0.14754057
+
+
+3.jpg
+    using tensorflow:
+        [1.0604366e-09]
+        [-0.00076696]
+
+    using nnc infer on PC:
+        1.0605358e-09
+        -0.0007666298
+
+
+4.jpg
+    using tensorflow:
+        [0.03766373]
+        [0.16373846]
+
+    using nnc infer on PC:
+        0.037665736
+        0.16373943
+
+
+5.jpg
+    using tensorflow:
+        [0.00115088]
+        [-0.12401328]
+
+    using nnc infer on PC:
+        0.0011509336
+        -0.12401329
+
+
+

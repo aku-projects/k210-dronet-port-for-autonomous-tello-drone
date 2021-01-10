@@ -1,0 +1,2 @@
+../ncc compile model.tflite model.kmodel -i tflite -t k210 --dataset images --inference-type float --input-std 0.0039216 --input-type uint8
+../ncc infer model.kmodel model --dataset images --input-std 0.0039216

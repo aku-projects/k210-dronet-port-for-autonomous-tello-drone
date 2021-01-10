@@ -1,0 +1,10 @@
+import KPU as kpu
+kpu.memtest()
+task = kpu.load("/sd/model.kmodel")
+kpu.memtest()
+kpu.set_outputs(task, 0, 1, 1, 1)
+kpu.set_outputs(task, 1, 1, 1, 1)
+img = image.Image('/sd/1.jpg')
+img.pix_to_ai()
+kpu.forward(task,img,0)
+kpu.forward(task,img,1)
